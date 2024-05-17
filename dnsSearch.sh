@@ -12,10 +12,10 @@ END='\033[0m'
 
 if [ "$1" == "" ]
 then 
-        echo -e "\n\n${YELLOW}       ======== OFFESECURITY - DNSZONE-BRUTE-FORCE ======== ${END}"
+        echo -e "\n\n${YELLOW}       ================ DNS-SEARCH ================ ${END}"
         echo " "
-        echo -e "${YELLOW}          Use mode: $0 domain listofname.txt ${END}"
-        echo -e "${YELLOW}           Example: $0 example.com list.txt ${END}\n\n"
+        echo -e "${YELLOW}          Use mode: $0 domain ${END}"
+        echo -e "${YELLOW}           Example: $0 example.com ${END}\n\n"
 else
         
         echo -e "\n\n${RED} Name Servers: ${END}"
